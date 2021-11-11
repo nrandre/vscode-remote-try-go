@@ -14,9 +14,9 @@ type Address struct {
 	LatLng [2]float64
 }
 
-var alex = User{}
+var usr = User{Name: "André do Nascimento Raimundo"}
 
 // Hello writes a welcome string
 func Hello() string {
-	return "Hello, " + alex.Name
+	return "Hello, " + usr.Name
 }
